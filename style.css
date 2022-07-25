@@ -1,0 +1,36 @@
+html, body {
+  margin:0px;
+}
+
+body{
+  width: 100%;
+  background-image: url(images/cinema-background.png);
+  background-repeat: round;
+  background-size: auto;
+}
+
+.container {
+  height: 100vh;
+
+
+}
+
+.vertical-center {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#btn-confirm{
+  width: 10%;
+}
+
+.right-button {
+  color: white;
+}
+
+a:hover{
+  text-decoration: none;
+}
